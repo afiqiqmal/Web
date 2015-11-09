@@ -1,0 +1,86 @@
+.btn-glow-green{
+	border: 1px solid #B6DB49;!important;
+  	box-shadow: 0px 0px 7px 0px #B6DB49 inset;!important;	
+	max-width:100px; !important;
+	min-width:auto; !important;
+	margin:0 auto;	!important;
+}
+
+#price-check-form input:not([type=submit]):not([type=file]):not([type=button]),
+#login-form input:not([type=submit]):not([type=file]):not([type=button]),
+#register-form input:not([type=submit]):not([type=file]):not([type=button]).
+#setting-form input:not([type=submit]):not([type=file]):not([type=button]){
+    margin-left:5px;!important;
+}
+
+form input{
+    padding-left:15px !important;
+}
+
+#login-form{
+	max-width:400px;min-width:auto;margin:0 auto;
+}
+
+#register-form,#content-div,#price-check-form,#setting-form{
+	max-width:80%;min-width:auto;margin:0 auto;
+}
+
+#price-check-form,#setting-form{
+    margin-top:10px;
+    overflow: hidden;
+}
+
+#overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+#loading {
+    width: 50px;
+    height: 57px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -28px 0 0 -25px;
+}
+
+.fileinput-button {
+  position: relative;
+  overflow: hidden;
+  margin-left:5px;!important;
+  display:inline-block;
+}
+.fileinput-button input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  transform: translate(-300px, 0) scale(4);
+  font-size: 23px;
+  direction: ltr;
+  cursor: pointer;
+  
+}
+
+.ui-table-cell-label{
+    display:none !important;
+}
+
+.setting-table{
+    width:100%;
+}
+
+.setting-table tbody tr td{
+    padding:10px;
+}
+
+.col{
+    padding:10px;
+}

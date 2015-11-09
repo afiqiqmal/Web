@@ -1,0 +1,80 @@
+
+.item-scan-list{
+	margin-top:10px;
+}
+
+.item-scan-list thead tr,.item-scan-list tfoot tr {
+	background-color:#f7f7f7;
+}
+
+.item-scan-list tbody {
+	background-color: #fff;
+}
+.total{
+	float:right; 
+	width:300px;
+}
+.total span{
+	font-size: 11px;
+}
+
+#result{
+    height: 200px;
+    overflow: auto;
+}
+
+.register{
+	margin-top: 10px;
+}
+
+/* size of column */
+.void,.qty,.discount,.stock{
+	width:50px;
+}
+
+.item_id,.price{
+	width:100px;
+}
+
+/* scan input */
+#scan_item {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border-bottom: 1px solid #DDDDDD;
+    border-left: 1px solid #DDDDDD;
+}
+      
+#scan_item:focus {
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border-bottom: 1px solid rgba(81, 203, 238, 0.5);
+    border-left: 1px solid rgba(81, 203, 238, 0.5);
+}
+
+.panel-heading #link:after {
+    font-family: 'FontAwesome';
+    content: "\f061";    
+    float: right; 
+    color: grey; 
+}
+.panel-heading #link.collapsed:after {
+    content: "\f063";
+}
+
+.panel .pay-table{
+    padding:0px;
+}
+
+.panel .pay-table .table{
+    margin-bottom:0px;
+    border-radius:0px;
+}
+
+.panel label{
+    font-weight: bold;
+}

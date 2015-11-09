@@ -1,0 +1,45 @@
+.table-report{
+      margin-bottom:-1px;  
+      border-collapse:collapse;
+}
+
+.table-report .justify{
+    text-align:center;
+}
+
+.table-report span{
+    font-size:13px;
+    color:red;
+}
+
+.table-report tr .right{
+    text-align:right;
+    width:200px;
+    font-weight:bold;
+    font-size:13px;
+}
+
+.table-report .inner{
+    border-radius:0px;
+    margin:0px 0px;
+    width:100%;
+    border:2px solid #0088cc;
+}
+
+.range_inputs { font-size: 0px; }
+.range_inputs * { display: none; }
+.ranges li:last-child { display: none; }
+
+#reportrange{
+    cursor: pointer;
+    margin-bottom:0px; 
+}
+
+#reportrange span{
+    color:black;
+}
+
+#reportrange .fa-chevron-down{
+    vertical-align:middle;
+    line-height:20px;
+}

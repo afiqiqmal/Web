@@ -1,0 +1,56 @@
+
+#receipt{
+    padding:10px 50px;
+}
+
+.receipt-header{
+    font-size:13px;
+}
+
+.receipt-header .title{
+    width:300px;
+    margin:0 auto;
+}
+
+.receipt-header .title table{
+    text-align:center;
+    margin:0 auto;
+    font-size:13px;
+}
+
+.receipt-body{
+    margin-top:30px;
+}
+
+.receipt-body .user table{
+    font-size:13px;
+}
+
+.receipt-body .item-list{
+    width:100%;
+    margin-top:30px;
+}
+.receipt-body table{
+    text-algin:left;
+}
+
+.receipt-body table{
+    font-size:13px;
+}
+
+table tfoot{
+    font-size:13px;
+}
+
+table tfoot td{
+    padding:3px 8px !important;
+    border-top:0px solid #000 !important;
+}
+
+table .first{
+    border-top:1px dotted #ddd;
+}
+
+table .bold{
+    font-weight:bold;
+}
